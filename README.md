@@ -1,7 +1,10 @@
 # SELECT students.name AS student ,groups.name AS [group] FROM students JOIN groups ON group_id = groups.id;
 Полное решение:
+
 Запрос №1:
+
 CREATE DATABASE GroupsStudents;
+
 Запрос №2:
 CREATE TABLE groups(
 id INT NOT NULL PRIMARY KEY IDENTITY,
